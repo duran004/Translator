@@ -1,0 +1,31 @@
+{
+    "name": "dcyilmaz/translator",
+    "description": "Laravel Translator",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^11.0",
+        "google/cloud-translate": "^1.17"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dcyilmaz\\Translator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dcyilmaz\\Translator\\TranslatorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Duran Can YILMAZ",
+            "email": "duran4@rengaver.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
